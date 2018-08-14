@@ -32,47 +32,25 @@ public class MainActivity extends AppCompatActivity {
 
         int a = Integer.parseInt(editText1.getText().toString());
         int b = Integer.parseInt(editText2.getText().toString());
-
         int resultInt = a + b;
-
         result.setText("Result: " + resultInt);
-
-
     }
-
     public void deduct(View view) {
-
         int a = Integer.parseInt(editText1.getText().toString());
         int b = Integer.parseInt(editText2.getText().toString());
-
         int resultInt = a - b;
-
         result.setText("Result: " + resultInt);
-
     }
-
     public void multiply(View view) {
-
         int a = Integer.parseInt(editText1.getText().toString());
         int b = Integer.parseInt(editText2.getText().toString());
-
         int resultInt = a * b;
-
         result.setText("Result: " + resultInt);
-
     }
-
     public void divide(View view) {
-
         int a = Integer.parseInt(editText1.getText().toString());
         int b = Integer.parseInt(editText2.getText().toString());
-
         int resultInt = a / b;
-
         result.setText("Result: " + resultInt);
-
     }
-
-
-
 }
